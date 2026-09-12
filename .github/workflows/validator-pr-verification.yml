@@ -16,8 +16,8 @@ jobs:
       matrix:
         python-version: ['3.8', '3.11']
         revision:
-          - fa07363
-          - e7c3d75
+          - fa073632bf72c7f91c24bd854d3b478eaacb4741
+          - e7c3d7548706a7ba3d797d9e2c601ce67afc9dff
     steps:
       - uses: actions/checkout@v4
         with:
